@@ -2,6 +2,9 @@ from machinetranslation import translator
 from flask import Flask, render_template, request
 import json
 
+'''
+web translator app
+'''
 app = Flask("Web Translator")
 
 @app.route("/englishToFrench")
